@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+    max-width: 1440px;
+    background-color: #000000;
+    margin: auto; /* Auto */
+    overflow: auto;
+}
+.navbar{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.navlist{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.navbar-list{
+    margin: 10px;
+    list-style: none;
+    font-size: 1.1rem;
+    color: #8f8f8f;
+    text-decoration: none;
+    font-weight: 300
+}
+.loginbtn{
+    padding: 10px 30px;
+    border-radius: 40px;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: #0c8bfd;
+    cursor: pointer;
+}
+.top_banner{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+.headllines{
+    color: #ffffff;
+    padding: 50px 5%;
+    width: 50%;
+}
+h1{
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+h1 span{
+    color: #0c8bfd;
+    font-style: italic;
+    font-weight: 600;
+}
+.heading-para{
+    padding: 25px 0px;
+    color: #8f8f8f;
+    font-size: 1rem;
+}
+.Getstarted{
+    padding: 8px 25px;
+    border-radius: 50px;
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 300;
+    background-color: #0c8bfd;
+    cursor: pointer;
+}
+.free-try{
+    padding: 8px 25px;
+    border-radius: 50px;
+    color: #ffffff;
+    border: 1px solid rgb(250, 250, 250);
+    margin: 30px;
+    font-size: 1rem;
+    font-weight: 300;
+    background: transparent;
+    cursor: pointer;
+}
+.logo_banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:  30px 0px;
+    background-color: #1d1c1c;
+}
+.main_banner{
+    display: flex;
+    flex-direction: column;
+    padding: 10% 5%;
+    background: #ffffff;
+}
+.main-banner_heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-banner_heading h2{
+    color: #000000;
+    font-size: 3rem;
+    font-weight: 300;
+}
+.main-banner_heading p{
+    color: #8f8f8f;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.service_poster{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 5%;
+    margin-top: 80px;
+}
+.service_poster div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgb(0, 0, 0);
+    height: 330px;
+    width: 330px;
+    padding: 18px;
+    border-radius: 20px;
+}
+.service_poster div img{
+    height: 90px;
+}
+.service_poster div h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.service_poster div p{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    color: #8f8f8f;
+}
+.signal{
+    margin-top: -50px;
+    background-color: #000000;
+}
+.signal h3{
+    color: #ffffff;
+}
