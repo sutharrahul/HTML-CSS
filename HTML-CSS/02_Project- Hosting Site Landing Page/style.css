@@ -123,7 +123,7 @@ h1 span{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 5%;
+    padding: 30px 0%;
     margin-top: 80px;
 }
 .service_poster div{
@@ -157,4 +157,81 @@ h1 span{
 }
 .signal h3{
     color: #ffffff;
+}
+.main_banner h2{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #000000;
+    padding: 30px 0px;
+}
+.list_service{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.feartures_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: normal;
+    height: 600px;
+    width: 49%;
+}
+.feartures-li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    margin-top: 10px;
+    padding: 10px 25px;
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: #000000;
+}
+.feartures-li img{
+    height: 50px;
+}
+.first{
+    background-color:#0c8bfd ;
+    border: none;
+    color: #ffffff;
+    font-weight: 100;
+}
+.feartures-li h4{
+    font-weight: 600;
+}
+.feartures_list-iteam{
+    width: 49%;
+    height: 600px;
+    padding: 10px 20px;
+    background-color: #000000;
+    border-radius: 20px;
+}
+.feartures_UL{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: normal;
+}
+.list-iteas{
+    display: flex;
+    color: #ffffff;
+    height: 60px;
+    width: 555px;
+    margin-top: 10px;
+    padding: 20px 15px;
+    border-radius: 40px;
+    background-color: #292828;
+    align-items: center;
+    font-size: 1rem;
+}
+.bullte{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-right: 10px;
 }
