@@ -235,3 +235,199 @@ h1 span{
     background-color: #ffffff;
     margin-right: 10px;
 }
+.hosting_server{
+    padding: 8% 5%;
+}
+.hosting_palns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.hosting_palns h2{
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+}
+.hosting_palns img{
+    height: fit-content;
+}
+.types_of_plans{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.server_plans{
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    background-color: #ffffff;
+    margin-top: 50px;
+    padding: 30px 25px;
+    height: 700px;
+    width: 380px;
+    border-radius: 40px;
+}
+.server_plans-type, .standard_server_plan{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.server_plan-price, .standard_plan-price{
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+.server_plan-price span{
+    color: #888787;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.server_user-type, .standard_user-type{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.line{
+    margin: 20px 0px 30px 0px;
+    height: 1.2px;
+    background-color: #888787;
+}
+.server_facility{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+}
+.server_facility img, .standard_plan_facility img{
+    
+    height: 18px;
+    margin-right: 10px;
+}
+.server_facility li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 7px 0px;
+    font-size: 1.2rem;
+}
+.select_plan{
+    padding: 20px 50px;
+    border-radius: 50px;
+    background-color: #0c8bfd;
+    border: none;
+    margin-top: 30px;
+}
+.select_plan a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+.standard_server_plans{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    background-color:#0c8bfd;
+    margin-top: 50px;
+    padding: 30px 25px;
+    height: 700px;
+    width: 380px;
+    border-radius: 40px;
+}
+.standard_plan-price span{
+    color: #85c5fe;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.standard_line{
+    margin: 20px 0px 30px 0px;
+    height: 1.2px;
+    background-color: #85c5fe;
+}
+.standard_plan_facility{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 43%;
+}
+.standard_plan_facility li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 7px 0px;
+    font-size: 1.2rem;
+}
+.standard_select{
+    padding: 20px 50px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    border: none;
+    margin-top: 45px;
+}
+.standard_select a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #0c8bfd;
+}
+.premium-server_plans{
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    background-color: #ffffff;
+    margin-top: 50px;
+    padding: 30px 25px;
+    height: 700px;
+    width: 380px;
+    border-radius: 40px;
+}
+.premium-server_plans-type{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.premium-server_plan-price{
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+.premium-server_plan-price span{
+    color: #888787;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.premium-server_user-type{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.premium-server_facility{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 43%;
+}
+.premium-server_facility img{
+    
+    height: 18px;
+    margin-right: 10px;
+}
+.premium-server_facility li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 7px 0px;
+    font-size: 1.2rem;
+}
+.premium-select_plan{
+    padding: 20px 50px;
+    border-radius: 50px;
+    background-color: #0c8bfd;
+    border: none;
+    margin-top: 45px;
+}
+.premium-select_plan a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+}
