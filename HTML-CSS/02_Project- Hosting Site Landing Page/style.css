@@ -9,6 +9,8 @@ body{
     background-color: #000000;
     margin: auto; /* Auto */
     overflow: auto;
+    height: 100vh;
+    /* width: 100vw; */
 }
 .navbar{
     height: 15vh;
@@ -220,7 +222,6 @@ h1 span{
     display: flex;
     color: #ffffff;
     height: 60px;
-    width: 555px;
     margin-top: 10px;
     padding: 20px 15px;
     border-radius: 40px;
@@ -430,4 +431,115 @@ h1 span{
     font-size: 1rem;
     font-weight: 500;
     color: #ffffff;
+}
+.ratting_banner{
+    /* display: flex; */
+    background-color: #ffffff;
+    padding: 8% 5%;
+}
+.customer_rew{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.customer_rew h4{
+    width: 50%;
+    font-size: 3.5rem;
+    color: #000000;
+}
+.customer_rew p{
+    width: 45%;
+    font-size: 1.2rem;
+    color: #888787;
+}
+.customer_review{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.customer_review_ratting{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 40px;
+    width: 48%;
+    height: 400px;
+    border-radius: 30px;
+}
+.customer_review_ratting img{
+    height: 50px;
+}
+.stars img{
+    height: 30px;
+}
+footer{
+    padding: 60px 5%;
+}
+footer h3{
+    color: #ffffff;
+    text-align: center;
+    font-size: 3.2rem;
+    padding: 30px;
+    font-weight: 500;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    margin-top: 60px;
+    background-color: #292828;
+    border-radius: 30px;
+    
+}
+.form input{
+    padding: 20px 80px 20px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color:#535353;
+    color: #ffffff;
+    font-size: 1rem;
+}
+.form button{
+    padding: 20px 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: #0c8bfd;
+    color: #ffffff;
+}
+::placeholder{
+    color: #a5a4a4;
+    text-align:start ;
+    font-size: 1rem;
+}
+.footer_base{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    color: #e2e1e1;
+    padding: 40px 30px;
+}
+.footer_option{
+    display: block;
+}
+.footer_option h6{
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 20px 0;
+}
+.footer_option ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.footer_option ul li{
+    margin: 10px 0;
+    font-size: 1rem;
+    font-weight: 200;
 }
