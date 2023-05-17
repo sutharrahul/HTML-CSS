@@ -11,6 +11,7 @@ body{
     overflow: auto;
     height: 100vh;
     /* width: 100vw; */
+    
 }
 .container{
     background-image: url(./futuristic-bg.png);
@@ -124,4 +125,152 @@ body{
     right: -60px;
     top: -20px;
     z-index: 1;
+}
+.games{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 5%;
+}
+.games h1{
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 0 15% 5%;
+    text-align: center;
+}
+.type_of_games{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 ;
+    width: 100%;
+}
+.game-character_banner{
+    height: 500px;
+    width: 290px;
+    margin-left: 0;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+.soilder_img{
+    width: 100%; 
+    height: 360px; 
+    object-fit: cover; 
+    object-position: 75% 0;
+    /* height: 100% ;
+    width:100% ;
+    object-fit: cover;
+    object-position: 10% 100%;
+    position: relative;
+    left: -60px; */
+}
+.Wariors_img{
+    width: 100%; 
+    height: 360px; 
+    object-fit: cover; 
+    object-position: 50% 0;
+}
+.pubjiken_img{
+    width: 100%; 
+    height: 360px; 
+    object-fit: cover; 
+    object-position: 50% 0;
+}
+.garela_img{
+    width: 100%; 
+    height: 360px; 
+    object-fit: cover; 
+    object-position: 55% 0;
+}
+.soldier-War{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5%;
+}
+.solder_game{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -113px;
+    backdrop-filter: blur(20px);
+}
+.the-war{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #ffffff;
+}
+.action{
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 200;
+    padding: 4px 0;
+}
+.download{
+    padding: 10px 12px;
+    margin-right: 5%;
+    border: none;
+    background-color: #f4694c;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 200;
+    cursor: pointer;
+
+}
+.war_game{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.war-img{
+    height: 450px;
+    width: 45%;
+}
+.war_game-img{
+    width: 100%; 
+    height: 450px; 
+    object-fit: cover; 
+    object-position: 50% 0;
+}
+.war_game-heading{
+    width: 60;
+    display: flex;
+    flex-direction: column;
+}
+.war_game-heading h2{
+    font-size: 2.3rem;
+    font-weight: 800;
+    padding: 0 0 5% 0;
+}
+.war_game-heading p{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0 0 5% 0;
+    margin: 0 0  60px 0;
+}
+.war_game-btn{
+    display: inline;
+}
+.war_game-btn :nth-child(1){
+    margin: 0 15px 0 0;
+    padding: 15px 40px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #f4694c;
+    border: none;
+    cursor: pointer;
+}
+.war_game-btn :nth-child(2){
+    margin: 0 15px 0 0;
+    padding: 12px 40px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #f4694c;
+    background-color: transparent;
+    border: 2px solid #f4694c;
+    cursor: pointer;
 }
